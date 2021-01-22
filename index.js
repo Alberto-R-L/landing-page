@@ -174,3 +174,55 @@ let services = $.ajax({
         console.error("The information could not be obtained");
     }
 });
+
+
+
+
+
+
+//Form validating
+
+
+let inputName= $('#name');
+let inputEmail= $('#email');
+let inputPassword= $('#password');   
+
+$('#email').attr('disabled','disabled');
+$('#password').attr('disabled','disabled');
+$('#submit').attr('disabled','disabled');
+
+//Check
+$('#name').keyup(function () {
+    let regexN = new RegExp("^[a-zA-Z]+$");
+    let inputN = inputName[0].value;
+    if(inputN.length>=3 && regexN.test(inputN)){
+    $('#email').removeAttr('disabled');
+    $('#name').css('border','5px solid green');
+    }else if(inputN.length<=2){
+        $('#email').attr('disabled','disabled');
+        $('#name').css('border','5px solid red');
+    }
+});
+$('#email').keyup(function (){
+    let regexE = new RegExp("^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$")
+    let inputE = inputEmail[0].value;
+
+    if(inputE.length>=3 && regexE.test(inputE)){
+        $('#password').removeAttr('disabled');
+        $('#email').css('border','5px solid green');
+    }else if(inputE.length<=2){
+        $('#password').attr('disabled','disabled');
+        $('#email').css('border','5px solid red');
+    }
+});
+$('#password').keyup(function () {
+    let regexS = new RegExp("^[a-zA-Z]+$");
+    let inputS = inputPassword[0].value;
+    if(inputS.length>=3 && regexS.test(inputS)){
+        $('#submit').removeAttr('disabled');
+        $('#password').css('border','5px solid green');
+    }else if(inputS.length<=2){
+        $('#submit').attr('disabled','disabled');
+        $('#password').css('border','5px solid red');
+    }
+});
