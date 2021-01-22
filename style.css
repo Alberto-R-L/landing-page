@@ -1,0 +1,395 @@
+body{
+background-color: white;
+
+}
+
+
+
+/* Separators */
+
+hr.separator{
+	height: 30px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px; 
+} 
+hr.separator:before { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 0 0 1px 0; 
+  border-radius: 20px; 
+}
+
+
+hr.separator-line{
+	height: 30px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 1px 0 0 0; 
+} 
+
+
+/* Header */
+
+
+
+
+.header{
+    background-image: linear-gradient( rgb(255, 153, 51), rgb(255, 153, 51), rgb(255, 153, 51), rgba(0, 0, 0, 0));
+    height: 10vh;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: whitesmoke;
+    text-shadow: 2px, 2px darkslategrey;
+    position:absolute;
+    bottom: 2;
+    left: 7px;
+    right: 7px;
+    
+}
+.header-content{
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px grey;
+
+}
+
+/* Bottom */
+.bottom{
+    background-image: linear-gradient( rgba(0, 0, 0, 0), white, white, white);
+    height: 10vh;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: whitesmoke;
+    text-shadow: 2px, 2px darkslategrey;
+    position:absolute;
+    top: 90vh;
+    left: 7px;
+    right: 7px;
+}
+
+
+/* Campos */
+.register{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex-direction: row;
+    border: 3px /*solid rgba(0, 0, 0, 0.25)*/ ;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 400px;
+    height: 375px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: medium;
+    background-color: rgba(255, 153, 51, 0.666);
+    color: white;
+    text-shadow: 2px 2px darkslategray;
+
+
+}
+.registerForm input{
+    margin: 10px 0px;
+    font-size: medium;
+    text-align: left;
+}
+
+.login{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    border: 1px solid black;
+    width: 300px;
+    height: min-content;
+    margin: 0 auto;
+    padding: 15px 50px;
+    background-color: rgb(255, 153, 51);
+    color: white;
+    text-shadow: 2px 2px darkslategray;
+}
+.formularioLogin input{
+    margin: 10px 0px;
+    font-size: x-large
+    
+}
+
+/* Botones */
+/* For default buttons */
+button{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    outline: none;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.25s;
+    border: none;
+    box-shadow: 0 5px darkslategrey;
+}
+button:hover{
+    background-color: rgb(102, 153, 255);
+    transition: all 0.25s   
+}
+button:active{
+    background-color: rgba(102, 153, 255, 0.5);
+    box-shadow: 0 2px grey;
+    transform: translateY(4px);
+}
+
+
+
+
+.registerButton{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    outline: none;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.25s;
+    border: none;
+    box-shadow: 0 5px darkslategrey;
+}
+.registerButton:hover{
+    background-color: yellowgreen;
+    transition: all 0.25s   
+}
+.registerButton:active{
+    background-color: rgba(153, 205, 50, 0.5);
+    box-shadow: 0 2px grey;
+    transform: translateY(4px);
+}
+
+.loginButton{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    outline: none;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.25s;
+    border: none;
+    box-shadow: 0 5px darkslategrey;
+}
+.loginButton:hover{
+    background-color: turquoise;
+    transition: all 0.25s
+}
+.loginButton:active{
+    background-color:rgba(64, 224, 208, 0.5);
+    box-shadow: 0 2px grey;
+    transform: translateY(4px);
+}
+
+
+.homeButton{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    outline: none;
+    background-color: lightgrey;
+    color: black;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.25s;
+    border: none;
+    box-shadow: 0 5px grey;
+    height: 35px;
+}
+.homeButton:hover{
+    background-color: lightskyblue;
+    transition: all 0.25s   
+}
+.homeButton:active{
+    background-color: rgba(135, 206, 250, 0.5);
+    box-shadow: 0 2px grey;
+    transform: translateY(4px);
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 50%;
+    z-index: 99;
+
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    background-color: lightgrey;
+    color: black;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.25s;
+    border: none;
+    box-shadow: 0 5px grey;
+    height: "50px";
+    width: "50px";
+  }  
+
+
+  #myBtn:hover {
+    background-color: lightskyblue;
+    transition: all 0.25s  
+  }
+  #myBtn:active{
+    background-color: rgba(91, 192, 255, 0.5);
+    box-shadow: 0 2px grey;
+    transform: translateY(4px);
+}
+
+
+
+
+/* HERO */
+
+.hero{
+    font-family: 'Tajawal', sans-serif;
+    font-size: 100px;
+    height:100vh;
+    background-image: url("images/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items:center; 
+    display: flex;
+    justify-content: center;
+    padding:0 10vw;
+    color:#fff;
+    
+}
+
+
+
+/* Tesmitony */
+
+.testimony-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    background-image: linear-gradient(to right,  rgb(255, 153, 51), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) );
+    color: white;
+}
+
+
+.testimony{
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: white;
+    color: black;
+    text-shadow: 2px 2px rgba(255, 153, 51, 0.2);
+    box-shadow: 0 4px 8px 0  white, 0 6px 20px 0 rgba(255, 255, 255, 0.2);
+    
+}
+
+.testimonials-button{
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    outline: none;
+    background-color: lightgrey;
+    color: black;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.25s;
+    border: none;
+    box-shadow: 0 5px grey;
+    height: 35px;
+    right: 50%;
+}
+.testimonials-button:hover{
+    background-color:rgb(100, 200, 100);
+    transition: all 0.25s   
+}
+.testimonials-button:active{
+    background-color: rgba(100, 200, 100, 0.5);
+    box-shadow: 0 2px grey;
+    transform: translateY(4px);
+}
+
+/* Single Testimony */
+.articleTestimony{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2px;
+    background-color: rgba(255, 153, 51, 0.8);
+    border-radius: 5px;
+    transition: all 0.25s;  
+}
+
+.articleTestimony:hover{
+    background-color: rgb(255, 153, 51);
+    transition: all 0.25s;
+
+}
+
+
+/* Services */
+
+.services-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    background-image: linear-gradient(to right,  turquoise, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) );
+    color: white;
+
+}
+
+
+
+.services{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: whitesmoke;
+    color: black;
+    text-shadow: 2px 2px rgba(47, 79, 79, 0.2);
+    box-shadow: 0 4px 8px 0  whitesmoke, 0 6px 20px 0 rgba(255, 255, 255, 0.2);
+
+}
+
+
+/* Single Service */
+
+.articleService{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2px;
+    background-color: rgba(64, 224, 208, 0.8);
+    border-radius: 5px;
+    transition: all 0.25s;  
+}
+
+.articleService:hover{
+    background-color: rgb(64, 224, 208);
+    transition: all 0.25s;
+
+}
+
+
+/* Video */
+
+.video{
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+
+.video-text{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    flex-basis: 640px;
+    padding: 2vh;
+    color: black;
+    text-shadow: 2px 2px rgba(47, 79, 79, 0.2);
+    box-shadow: 0 4px 8px 0  whitesmoke, 0 6px 20px 0 rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+
+
+/* Testimonies */

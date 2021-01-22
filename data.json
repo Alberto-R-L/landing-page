@@ -1,0 +1,78 @@
+{
+"services":[
+    {
+        "title":"3D Small/Medium piece printing",
+        "text":"Print from small to medium (>25cm) pieces with a high precision and high hardness, for a long lasting 3D printed piece. ",
+        "line":"div",
+        "button":"button"
+    },
+    {
+        "title":"3D Big piece printing",
+        "text":"Over 25cm pieces for other kind of purposes, not as durable as small, but still good. ",
+        "line":"div",
+        "button":"button"
+    },
+    {
+        "title":"Complex 3D printing",
+        "text":"For multiple-part/extrange material pieces, durability may change depending on what kind of proyect you are printing. ",
+        "line":"div",
+        "button":"button"
+    },
+    {
+        "title":"Multiple piece proyects",
+        "text":"Print a whole car if you want, this section is a combination of all the types of printing we provide, durability and precision may change on what kind of printing we're doing. ",
+        "line":"div",
+        "button":"button"
+    }
+],
+"testimony":[
+    {
+        "name":"Alberto R.",
+        "date":"06/12/2020",
+        "text":"I literally asked for printing a miniature car 10/10."},
+    {
+        "name":"Juan A",
+        "date":"09/03/2019",
+        "text":"Now i have a 3D printed segment horse in a 3D printed house, its perfect 9/10."},
+    {
+        "name":"Pepe E",
+        "date":"24/01/2021",
+        "text":"Perfect technical service, and price tho, 4/5."},
+    {
+        "name":"Javier D",
+        "date":"14/10/2020",
+        "text":"Recomended bya  friend and exquisitely satisfied, they could print a monitor grip 9/10."},
+    {
+        "name":"Sara R",
+        "date":"10/01/2020",
+        "text":"Fantastic, now i have a cat that supports my phone to see series and films 8/10."},
+    {
+        "name":"Hernald M",
+        "date":"09/11/2020",
+        "text":"Even the delivery was fast, 5/5."},
+    {
+        "name":"Alfred V",
+        "date":"30/12/2020",
+        "text":"I even recommended to a friend."},
+    {
+        "name":"Jonh B",
+        "date":"3/12/2020",
+        "text":"Perfect to build even a prototype of my mechanical arm 9.5/10."},
+    {
+        "name":"Ele P",
+        "date":"01/09/2020",
+        "text":"Best 3D printing shop in the world!"},
+    {
+        "name":"Sofia L",
+        "date":"01/05/2020",
+        "text":"Fantastic, i finally made myself the keychain i wanted! 10/10"},
+    {
+        "name":"Catalina R",
+        "date":"12/01/2020",
+        "text":"I needed a prototype for my self made keypad and they made it fast and it still stands 10/10."},
+    {
+        "name":"Josef U",
+        "date":"01/01/2020",
+        "text":"I think I'll request another proyect 10/10."}
+]
+}
