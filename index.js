@@ -216,7 +216,7 @@ $('#email').keyup(function (){
     }
 });
 $('#password').keyup(function () {
-    let regexS = new RegExp("^[a-zA-Z]+$");
+    let regexS = new RegExp("^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]");
     let inputS = inputPassword[0].value;
     if(inputS.length>=3 && regexS.test(inputS)){
         $('#submit').removeAttr('disabled');
