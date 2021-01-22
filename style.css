@@ -424,8 +424,9 @@ button:active{
 
         .video{
             display: flex;
-            justify-content:space-evenly;
+            justify-content:center;
             flex-direction: column;
+
         }
 
 
